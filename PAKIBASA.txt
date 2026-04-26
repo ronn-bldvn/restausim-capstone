@@ -1,0 +1,55 @@
+Login - pwede mamili if google or manual (hindi ko sure clsu2 lang pwede)
+
+
+Faculty Side
+
+Upon login ni faculty dashboard muna
+
+Dashboard
+
+May helper to show yung activity logs ng instructor (apps/Helper/ActivityLogger)
+
+Section Page
+
+Create Section - after input ng section name, automatic na lalabas yung HM 1135 or TM 1135 depende sa section na nilagay. (pwede mamili si instructor if copy ng invite link or via code yung ibibigya niya)
+View Details - Total Submissions per act and total student
+Manage - update section details etc.
+
+Activity Page
+
+Create Activity - (ayusin ko paUI pero may choice na don na no score/grade) - automated na may email na magnonotif sa kanila
+Submissions - details ng submissions
+Manage - same sa section
+
+Announcements Page
+
+Create Announcements - automated na may email na magnonotif sa kanila
+Andito narin update and delete
+
+Activity Detail Page
+
+Activities - detailds of the activity and recent submissions
+Students - CRUD for roles
+Student works - for grading
+
+Archived Section
+
+Similar lang sa section page and below pero hindi pwede mag perform ng actions
+
+
+Student Side
+
+Upon login diretso ng section page
+
+Section Page
+
+Activity Page - halo yung announcements and activity (ayusin ko pa siguro UI)
+
+Activity Detail Page - pwede na dito mag start ng simulation, by default walang role si student (hindi pa din sure to if sa isang activity pwede mag palit ganon)
+
+Simulation Page - pwede mag exit, pwede den mag submit, after mag submit hindi na pwede ma access yung simulation
+
+
+simple details lang to ikaw na mag explore para sa flowchart
+
+ayusin ko pa din UI ng iba
