@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('username')->unique()->nullable();
             $table->string('email')->unique()->nullable();
             $table->string('password');
-            $table->enum('role')->default('student');
+            $table->enum('role',['faculty', 'student'])->default('student');
             $table->timestamps();
         });
     }
