@@ -553,6 +553,4 @@ Route::prefix('reportsAnalytics')->middleware(['auth', 'permission:view reports 
     
 Route::get('/analytics/export/inventory', [ReportingAnalyticsController::class, 'exportInventory'])->name('analytics.export.inventory');
 Route::get('/analytics/export/sales', [ReportingAnalyticsController::class, 'exportSales'])->name('analytics.export.sales');
-Route::get('/reports/analytics', \App\Livewire\ReportingAnalytics\ReportingAnalytics::class)
-    ->middleware(['auth'])
-    ->name('reportsAnalytics.index');
+
