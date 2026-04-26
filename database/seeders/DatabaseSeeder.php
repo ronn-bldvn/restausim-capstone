@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
         // $this->call(InventoryCategorySeeder::class);
         // $this->call(UnitOfMeasurementSeeder::class);
         // $this->call(MenuItemCategorySeeder::class);
-        $this->call(InventorySeeder::class);
+        // $this->call(InventorySeeder::class);
         // $this->call(MenuItemSeeder::class);
         // $this->call(MenuItemIngredientsBackfillSeeder::class);
     }
