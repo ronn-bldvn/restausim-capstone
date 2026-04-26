@@ -46,8 +46,8 @@
             {{-- MENU ITEMS --}}
             <div id="data" wire:loading.class="pointer-events-none opacity-50" wire:target="switchTabs,gotoPage"
                 class="mb-2 mt-5 grid gap-3 content-start
-                       grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4
-                       overflow-auto h-[60vh]">
+                        grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4
+                        overflow-auto h-auto min-h-[40vh]">
                 @foreach ($menuItems as $item)
                     @php($state = $menuStock[$item->id] ?? ['zero' => false, 'low' => []])
                     <div class="relative transition-transform duration-200 hover:-translate-y-1 bg-white border border-gray-200 rounded-xl shadow-sm dark:bg-gray-900 dark:border-gray-800 hover:shadow-md overflow-hidden flex flex-col min-h-[10rem] {{ $state['zero'] ? 'opacity-50 cursor-not-allowed pointer-events-none' : 'cursor-pointer' }}"
